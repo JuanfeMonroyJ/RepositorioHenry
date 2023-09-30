@@ -1,0 +1,38 @@
+- En el siguiente archivo voy a explicar como cree y uní el reposito de github a mi unidad local.
+
+1: El repositorio lo cree directamente desde la pagina GitHub.
+2: Luego desde la terminal clone el reposito directamente a mi computador con el comando "git clone" + la url del repositorio "https://github.com/JuanfeMonroyJ/RepositorioHenry.git".
+3: Continue por crear una carpeta adentro del "RepositorioHenry" con el comando "mkdir + el nombre de la carpeta que iba a crear" en mi caso y como el ejercicio lo indicaba fue "CarpetaHenry".
+4: El siguiente paso por el que continue fue crear un archivo ".txt" adentro de "CarpetaHenry" con el comando "touch + el nombre del archivo.txt" en este caso fue "PrimerArchivo".
+5: Luego procedi a agregar los archivos al area de preparacion adentro del repositorio, use el comando "git add + el nobmre del archivo".
+6: Seguí por agregar un commit para confirmar los cambios, use el siguiente comando " git commit -m + una descripcion".
+7: por ultimo subi los cambios a mi reposito git con el comando "git push".
+8: A continuacion voy a dar los paso que segui expresados unicamente en el codigo ya explicado.
+
+
+
+- El codigo usado exacto, fue:
+
+1: git clone https://github.com/JuanfeMonroyJ/RepositorioHenry.git
+2: mkdir "CarpetaHenry"
+3: touch "PrimerArchivo.txt"
+4: git add "PrimerArchivo"
+5: git commit -m "Primer Homework"
+6: git push
+
+
+
+- Explicacion de codigo.
+
+1: git clone : Clona el reposito desde GitHub (es primordial agregar el url).
+2: mkdir : Crea una nueva carpeta.
+3: touch : crea un archivo, tu eliges el formato en este caso fue .txt.
+4: git add : agrega los archivos al area de preparacion.
+5: git commit -m : almacena los datos.
+6: git push : se envia todos los datos al repositorio de GitHub.
+
+
+JuanfeMonroyJ.
+
+Gracias.
+
